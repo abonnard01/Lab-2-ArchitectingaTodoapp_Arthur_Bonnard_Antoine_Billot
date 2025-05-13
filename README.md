@@ -7,11 +7,14 @@ Cette application est un gestionnaire de tâches en ligne de commande, écrit en
 - Sauvegarde automatique en `todos.csv`
 
 Voila la structure du code. 
+
 ├── domain
 │   ├── model            # Entités métier (ex: Todo)
 │   └── port             # Interfaces (ports) pour la persistance
+
 ├── application
 │   └── service          # Cas d’usage (logique métier)
+
 ├── adapters
 │   ├── inbound/console  # Interface utilisateur (console)
 │   └── outbound         # Persistance (ex: CSV)
